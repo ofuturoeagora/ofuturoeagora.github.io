@@ -6,7 +6,7 @@
 
 /* Basic */
 
-	body, input, select, textarea {
+	body {
 		font-size: 12pt;
 	}
 
@@ -26,15 +26,6 @@
 		font-size: 1em;
 	}
 
-/* Image */
-
-	.image.left {
-		margin: 0 1.5em 1em 0;
-	}
-
-	.image.right {
-		margin: 0 0 1em 1.5em;
-	}
 
 /* Section/Article */
 
@@ -54,7 +45,7 @@
         }
 /* Features */
 
-	.features article .image, .excerpt img {
+	.features article .image {
 		display: block;
 		margin: 0 0 2.25em 0;
 		padding-right: 0;
@@ -86,11 +77,6 @@
 
 	#main > section > .container {
 		padding: 2em 0 0 0;
-	}
-
-/* Home */
-	#welcome:before, #education:before, #courses:before, #work:before, #skills:before, #who-is-guilherme-norberto:before {
-		height: 6em;
 	}
 
 /* Footer */

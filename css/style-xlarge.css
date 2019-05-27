@@ -6,7 +6,7 @@
 
 /* Basic */
 
-	body, input, select, textarea {
+	body {
 		font-size: 13pt;
 	}
 
@@ -15,14 +15,6 @@
 	#header {
 		width: 21em;
 	}
-
-		/*#header > header {
-			padding: 2em;
-		}
-
-		#header > footer {
-			padding: 1.5em;
-		}*/
 
 /* Wrapper */
 

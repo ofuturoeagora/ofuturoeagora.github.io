@@ -25,8 +25,6 @@
   content: "\f0c1"; }
 .fa-laptop-code:before {
   content: "\f5fc"; }
-.fa-chalkboard-teacher:before {
-  content: "\f51c"; }
 .fa-bullhorn:before {
   content: "\f0a1"; }
 .fa-terminal:before {
@@ -45,3 +43,5 @@
   content: "\f058"; }
 .fa-stream:before {
   content: "\f550"; }
+.fa-archway:before {
+  content: "\f557"; }

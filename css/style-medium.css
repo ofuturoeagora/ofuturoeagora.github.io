@@ -6,19 +6,9 @@
 
 /* Basic */
 
-	body, input, select, textarea {
+	body {
 		font-size: 12pt;
 	}
-
-/* Image */
-
-	.image.left, .image.right {
-		max-width: 40%;
-	}
-
-		.image.left img, .image.right img {
-			width: 100%;
-		}
 
 /* Header */
 
@@ -36,15 +26,6 @@
 		width: 100%;
 	}
 
-		/*#header > footer {
-			bottom: auto;
-			left: auto;
-			margin: 1em 0 0 0;
-			position: relative;
-			right: auto;
-			top: auto;
-		}*/
-
 /* Wrapper */
 
 	#wrapper {
@@ -53,9 +34,6 @@
 
 /* Home */
 
-	#welcome:before, #education:before, #courses:before, #work:before, #skills:before, #who-is-guilherme-norberto:before {
-		height: 6em;
-	}
     #welcome {
         padding-top: 2.75em;
     }
@@ -69,6 +47,21 @@
         padding-top: 3em;
         margin-top: -3em;
 	}
+	#welcome:before, #courses:before {
+		background-image: url("../images/medium/banner-big-data.jpg");
+    }
+    #education:before {
+		background-image: url("../images/medium/banner-education.jpg");
+    }
+    #work:before {
+		background-image: url("../images/medium/banner-work.jpg");
+    }
+    #skills:before {
+		background-image: url("../images/medium/banner-skills.jpg");
+    }
+    #who-is-guilherme-norberto:before {
+		background-image: url("../images/medium/banner-france.jpg");
+    }
     
 /* Layers */
 
