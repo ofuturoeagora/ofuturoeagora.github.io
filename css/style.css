@@ -31,9 +31,10 @@
 		text-decoration: none;
 	}
 
-		a:hover {
+		p a:hover {
 			border-bottom-color: transparent;
 			color: #5900b3 !important;
+            background-color: #0f0;
 		}
 
 	strong, b {
@@ -43,7 +44,11 @@
 	p {
 		margin: 0 0 .8em 0;
 	}
-
+        p a, li a {
+            font-style: italic;
+            color: #390071;
+        }
+        
 	h1, h2, h3, h4, h5, h6 {
 		color: #200040;
 		font-weight: 700;
@@ -518,7 +523,7 @@
     #who-is-guilherme-norberto:before {
 		background-image: url("../images/global/banner-france.jpg");
     }
-    #courses-2019 {
+    #courses-2019, #courses-2018 {
         margin-bottom: 1em;
     }
 /* Footer */

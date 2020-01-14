@@ -1,5 +1,17 @@
 ATUALIZAÇÕES
 
+
+***VERSÃO 1.3 | 2020-01-14***
+
+*Correções*
+
+ - Histórico profissional e lista de cursos atualizados
+ - We❤Data: Data Community
+ - Quebras de linha
+ - font-display: swap;
+ - Teste: <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
 ***VERSÃO 1.2 | 2019-05-27***
 
 *Correções*
