@@ -1,6 +1,16 @@
 ATUALIZAÇÕES
 
 
+***VERSÃO 1.4 | 2020-02-10***
+
+*Correções*
+
+ - Escola Livre de Inteligência Artificial adicionada
+ - Lista de cursos atualizada
+ - Correção de textos
+ - Classe "courses" adicionada ao arquivo style.css 
+
+
 ***VERSÃO 1.3 | 2020-01-14***
 
 *Correções*

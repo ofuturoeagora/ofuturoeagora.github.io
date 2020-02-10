@@ -523,7 +523,7 @@
     #who-is-guilherme-norberto:before {
 		background-image: url("../images/global/banner-france.jpg");
     }
-    #courses-2019, #courses-2018 {
+    .courses {
         margin-bottom: 1em;
     }
 /* Footer */
