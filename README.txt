@@ -1,6 +1,13 @@
 ATUALIZAÇÕES
 
 
+***VERSÃO 1.4.1 | 2020-02-11***
+
+*Correções*
+
+ - Welcome: Link+Escola Livre de Inteligência Artificial
+ - Ícones nas versões EN, ES, FR
+
 ***VERSÃO 1.4 | 2020-02-10***
 
 *Correções*
