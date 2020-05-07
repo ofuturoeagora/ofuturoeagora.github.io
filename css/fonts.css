@@ -1,0 +1,78 @@
+/*!
+ * Font Awesome Free 5.8.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-display: swap;
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../fonts/fa-brands-400.eot");
+  src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.ttf") format("truetype"), url("../fonts/fa-brands-400.svg#fontawesome") format("svg"); }
+
+.fa-github:before {
+  content: "\f09b"; }
+.fa-linkedin:before {
+  content: "\f08c"; }
+.fa-youtube:before {
+  content: "\f167"; }
+  
+/*!
+ * Font Awesome Free 5.8.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-display: swap;
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../fonts/fa-solid-900.eot");
+  src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg"); }
+.fa-suitcase:before {
+  content: "\f0f2"; }
+.fa-stream:before {
+  content: "\f550"; }
+.fa-robot:before {
+  content: "\f544"; }
+.fa-university:before {
+  content: "\f19c"; }
+.fa-user-graduate:before {
+  content: "\f501"; }
+.fa-desktop:before {
+  content: "\f108"; }
+.fa-laptop-code:before {
+  content: "\f5fc"; }
+.fa-bullhorn:before {
+  content: "\f0a1"; }
+.fa-terminal:before {
+  content: "\f120"; }
+.fa-globe-americas:before {
+  content: "\f57d"; }
+.fa-cloud:before {
+  content: "\f0c2"; }
+.fa-users:before {
+  content: "\f0c0"; }
+.fa-hiking:before {
+  content: "\f6ec"; }
+.fa-archway:before {
+  content: "\f557"; }
+.fa-list-ul:before {
+  content: "\f0ca"; }
+.fa-rocket:before {
+  content: "\f135"; 
+  padding-top: .125em;
+  padding-right: .125em; }
+.fa-search:before{
+  content: "\f002"; }
+.fa-code:before{
+  content: "\f121"; }
+.fa-chart-line:before{
+  content: "\f201"; }
+.fa-project-diagram:before{
+  content: "\f542";
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  padding-top: .05em; }

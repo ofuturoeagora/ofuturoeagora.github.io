@@ -123,3 +123,6 @@
 		background: #200040;
 		color: #d3d3f2;
 	}
+    div#titleBar > a {
+        border-bottom: none !important;
+    }

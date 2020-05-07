@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i&display=swap");
-@import url(font-awesome.css);
-@import url(brands.css);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url(fonts.css);
 
 /*
 	Read Only by HTML5 UP
@@ -26,16 +26,12 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
+		border-bottom: solid 1px #0ff;
 		color: inherit;
 		text-decoration: none;
+		font-style: italic;
+		font-weight: 400;
 	}
-
-		p a:hover {
-			border-bottom-color: transparent;
-			color: #5900b3 !important;
-            background-color: #0f0;
-		}
 
 	strong, b {
 		font-weight: 700;
@@ -43,10 +39,14 @@
 
 	p {
 		margin: 0 0 .8em 0;
+		text-align: justify;
 	}
         p a, li a {
             font-style: italic;
             color: #390071;
+        }
+        li.fa-globe-americas {
+    		display: inline-table !important;
         }
         
 	h1, h2, h3, h4, h5, h6 {
@@ -74,7 +74,9 @@
 
 	h4 {
 		font-size: 1.25em;
-		line-height: 1.5em;
+		line-height: 2em;
+        font-weight: 500;
+        font-style: italic;
 	}
 
 	blockquote {
@@ -84,6 +86,7 @@
 		padding: 0.5em 0 0.5em 2em;
         font-size: 1.25em;
         font-weight: 200;
+        text-align: justify;
 	}
 
 /* Section/Article */
@@ -150,9 +153,128 @@
 			font-weight: normal;
 			text-transform: none !important;
 		}
-        
 		.icon > .label {
 			display: none;
+		}
+
+		a.github-after:after, a.linkedin-after:after, 
+		a.youtube-after:after, a.code-after:after, 
+		a.laptop-code-after:after, .controls *:after {
+			font-family: 'Font Awesome 5 Brands';
+			margin: 0 .3em;
+			font-style: normal;
+		}
+		a.github-after:after {
+			content: "\f09b";
+			color: #000;
+		}
+		a.linkedin-after:after {
+			content: "\f08c";
+			color: #369;
+		}
+		a.youtube-after:after {
+			content: "\f167";
+			color: #f00;
+		}
+		a.laptop-code-after:after {
+			content: "\f5fc";
+		}
+		a.github-after:hover:after, a.linkedin-after:hover:after, 
+		a.youtube-after:hover:after, a.laptop-code-after:hover:after {
+			color:#390071;
+		}
+		div p.highlighted-footnote a.linkedin-after:hover:after, 
+		div p.highlighted-footnote a.github-after:hover:after,
+		div p.highlighted-footnote a.laptop-code-after:hover:after {
+			font-size: 2em;
+			float:right;
+			color:#390071;
+		}
+		div p.highlighted-footnote a.laptop-code-after:hover:after {
+			font-size: 1.8em;
+		}
+		a.code-after:after, a.laptop-code-after:after, 
+		.controls *:after {
+	        font-family: FontAwesome !important;
+	        font-size: .8em;
+	    }
+		.controls button, div.time {
+			background-color: #eee;
+			border: none;
+			color: #453376;
+			padding: .5em;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: .65em;
+			border-radius: 100%;
+			margin-bottom: 0em;
+		}
+/*		div.player {
+		    background-color: #eee;
+		    width: 10em;
+		    text-align: center;
+		    border: .03em #ddd solid;
+		    margin-bottom: 0em;
+		}*/
+ 		div.time {
+			display: inline;
+			font-weight: 700;
+			border-radius: 0;
+		}
+ 		.controls div.time.active {
+ 			background: #0f0;
+		}
+		.controls button span {
+			display: none;
+		}
+		.controls button:hover {
+			color: #390071;
+		}
+		.controls button.play:after {
+			content: "\f04b";
+		}
+		.controls button:hover {
+			background-color: #0f0;
+			font-size: .75em;
+		}
+		.controls button.pause:after {
+			content: "\f04c";
+		}
+		.controls button.backward:after {
+			content: "\f04a";
+			width: 7em;
+		}
+		.controls button.stop:after {
+			content: "\f04d";
+		}
+		.controls button.forward:after {
+			content: "\f04e";
+		}
+		a.code-after:after {
+			content: "\f121";
+		}
+		a.code-after:hover:after {
+			font-size: 2em;
+			float:right;
+		}
+		a.code-after:hover, div p.highlighted-footnote a.linkedin-after:hover, div p.highlighted-footnote a.github-after:hover, div p.highlighted-footnote a.laptop-code-after:hover {
+			position: relative;
+			display: inline-block;
+			width:100%;
+			margin: 0 auto;
+			background-color: #0f0;
+			padding: 0.5em;
+			border-bottom: solid 5px #390071;
+            color: #200040 !important;
+		}
+		p.highlighted-footnote {
+    		padding: .3em 0;
+    		background-color: #eee;
+    		margin: 1em 0;
+		}
+		p.highlighted-footnote a {
+			padding: 0 1em;
 		}
 
 /* Image */
@@ -202,6 +324,19 @@
 				display: block;
 				width: 100%;
 			}
+		div#titleBar span.image.avatar {
+			width: 2em;
+			margin: .2em .5em;
+			vertical-align: middle;
+    		position: relative;
+		}
+		div#titleBar span.title {
+			display:inline;
+		    padding: 0;
+		    vertical-align: middle !important;
+	        font-size: 1.06em;
+		}
+		div#sidePanel
 
 /* List */
 
@@ -247,9 +382,9 @@
 
 			ul.feature-icons li {
 				text-decoration: none;
-				display: inline-block;
+				display: inline-flex;
 				margin: 0 0 1.6875em 0;
-				padding: 0.35em 0 0 3.5em;
+				padding: 0.35em 1em 0 3.5em;
 				position: relative;
 				width: 48%;
                 font-size:.95em;
@@ -346,13 +481,14 @@
 
 	#header {
 		background: #200040;
-		color: #d3d3f2;
+		color: #fff;
 		height: 100%;
 		position: fixed;
 		text-align: center;
 		top: 0;
 		width: 23em;
 		right: 0;
+		overflow: hidden auto;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -368,7 +504,7 @@
 		}
 
 		#header a {
-			color: #d3d3f2;
+			color: #f00;
 		}
 
 			#header a:hover {
@@ -393,20 +529,21 @@
 			}
 
 			#header > header p {
-				color: #d3d3f2;
+				color: #fff;
 				margin: 1em 0 0 0;
                 font-size: .95em;
+                text-align: center;
 			}
 
             #header > header p#job-title{
 				font-style: normal;
             }
 
-            #header > header p#slogan {
+            #header > header p#slogan, p.slogan {
                 font-weight: bold;
    				font-style: italic;
                 font-size: 1.15em;
-                font-weight:200;
+                font-weight:500;
             }
 
 		#header > footer {
@@ -457,11 +594,30 @@
 					#header > nav ul li a.active, #header > nav ul li .cc-active {
 						background: #390071;
 						color: #00ff00 !important;
+						font-weight: 500; 
 					}
 
 				#header > nav ul li:first-child {
 					border-top: 0;
 				}
+
+		p a:hover, li a:hover, 
+		#header > nav ul li a:hover,
+		#header > nav ul li a.active:hover {
+            background-color: #0f0;
+            font-weight: 500;
+            color: #390071 !important;
+		}
+		#header > nav ul li a:hover,
+		#header > nav ul li a.active:hover {
+			font-weight: 700;
+		}
+		p a:hover, li a:hover {
+			padding: 0.5em;
+			border-bottom: solid 5px #390071;
+            color: #200040 !important;
+		}
+
     #header #languages { 
         text-align: center;
         margin-top: .5em;
@@ -476,13 +632,14 @@
     img.flag {
         height:1em;
         vertical-align: text-bottom;
-        margin-left:.3em;
-        margin-right:.3em;
+        margin: 0 .3em;
     }
-    p > img.flag {
+    p > img.flag, p a img.flag, 
+    li > img.flag, li a img.flag,
+    span.note img.flag {
         height: .65em;
-        vertical-align: middle;
-        margin: 0;
+        vertical-align: initial;
+        margin: 0 .1em 0 0;
     }
 
 /* Wrapper */
@@ -561,3 +718,53 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+/* Customized */
+	.note {
+		font-style: italic;
+		font-size: 90%;
+		margin-top: -.5em;
+		line-height: 1.5em;
+		color: #555;
+	}
+	.highlighted {
+		background-color: #ff5;
+	}
+	.fw500 {
+		font-weight: 500;
+	}
+	.embed-container {
+	    position: relative;
+	    padding-bottom: 56.25%;
+	    height: 0;
+	    overflow: hidden;
+	    max-width: 100%;
+	} 
+	.embed-container iframe, .embed-container object, 
+	.embed-container embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	p.embed-container + p.note {
+		margin-bottom: 2em;
+	}
+	.meaningful-phrases {
+		text-align: center;
+	    color: #ccc;
+	    margin: 2em 0 -1em;
+	    padding: 0;
+        text-transform: uppercase;
+	}
+
+/*        a.code-after:hover, div p.highlighted-footnote a.linkedin-after:hover, div p.highlighted-footnote a.github-after:hover, div p.highlighted-footnote a.laptop-code-after:hover {
+            text-align: left;
+
+        p.highlighted-footnote {
+            text-align: center;
+
+    .meaningful-phrases {
+        margin: 2em 0 1em;
+*/

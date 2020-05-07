@@ -26,7 +26,7 @@
 					height: 44,
 					position: 'top-left',
 					side: 'top',
-					html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span><span class="title" data-action="copyText" data-args="logo"></span>'
+					html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span><a href="./#welcome"><span class="image avatar"><picture><source media="(max-width: 480px)" srcset="/images/xsmall/guilherme-norberto.jpg"><source media="(min-width: 481px)" srcset="/images/global/guilherme-norberto.jpg"><img src="/images/global/guilherme-norberto.jpg" alt="" /></picture></span></a><a href="./#welcome"><span class="title" data-action="copyText" data-args="logo"></span></a>'
 				},
 				sidePanel: {
 					breakpoints: 'medium',
@@ -93,6 +93,9 @@
 
 						// Set active class on this link.
 							$this.addClass('active');
+
+						// Set window location to the point user is on the page
+						window.location = href;
 
 					})
 					.each(function() {

@@ -76,7 +76,7 @@
 /* Main */
 
 	#main > section > .container {
-		padding: 2em 0 0 0;
+		padding: 2em 0 4em 0;
 	}
 
 /* Footer */
@@ -108,3 +108,6 @@
 			font-size: 14px;
 			width: 44px;
 		}
+    img.flag {
+        margin: 0 .2em !important;
+    }
