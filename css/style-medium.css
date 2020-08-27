@@ -102,9 +102,6 @@
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
-			}
-
-			#titleBar .toggle:before {
 				background: #390071;
 				color: #ffffff;
 				content: '\f0c9';

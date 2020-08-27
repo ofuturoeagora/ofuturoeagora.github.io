@@ -8,7 +8,6 @@ ATUALIZAÇÕES
  - Seções: textos atualizados; áudios e frases de rodapé adicionados
  - Menu: botão "Ir para o topo" se transformou em "Apresentação Pessoal"; foto e título com link (versão mobile), barra de rolagem e ícone do Instagram adicionados
  - Página Cursos: 7 cursos adicionados
- - Logotipo We Love Data atualizado
  - Geral: título profissional, códigos CSS (interação com links, destaque de textos, etc.) e JavaScript (navegação e usabilidade do site) atualizados; Código JavaScript "Audio Player" adicionado
 
 
