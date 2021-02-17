@@ -1,6 +1,26 @@
 ATUALIZAÇÕES
 
 
+***VERSÃO 2.2 | 2021-02-16***
+
+*Modificações*
+
+- Cabeçalho: Data Engineer, Poliglota e Multidisciplinar
+- Página Educação: +Nova ordem dos itens, +Escola 42, +E mais de 30 Cursos realizados na área de Tecnologia, +[Univesp, 2017 - 2018] (interrompido)
+- Página Experiência Profissional/Tecnologias Utilizadas: +Git / Github, Drone, Airflow, Microsoft Azure, Power BI...
+- Versão em Francês: +passionnés, +communiquer, +áudios
+- Versão em Inglês: +led
+
+
+***VERSÃO 2.1 | 2020-08-27***
+
+*Modificações*
+
+- Página Experiência Profissional: +Raízen
+- Menu de idiomas e redes sociais: +Target _blank
+- Link Instagram: @ofuturoeagora_br
+
+
 ***VERSÃO 2.0 | 2020-05-07***
 
 *Modificações*
